@@ -1,0 +1,9 @@
+{
+	"name": "database-forms",
+	"description": "Easy form generation for creating and editing database records.",
+	"homepage":"https://github.com/lyudmil/database-forms",
+	"author":"Lyudmil Angelov <lyudmil.i.angelov@gmail.com>",
+	"version": "0.0.1",
+	"git":"https://github.com/lyudmil/database-forms.git",
+	"packages":{}
+}
