@@ -7,6 +7,7 @@ Package.on_use(function(api) {
 	api.add_files([
 		'lib/jsonform/jsv.js',
 		'lib/jsonform/jsonform.js',
+		'lib/regex_filter/regex_filter.js',
 		'lib/class.js',
 		'lib/database_form.js',
 		'lib/form_model.js'
