@@ -4,6 +4,7 @@ Package.describe({
 
 Package.on_use(function(api) {
 	api.use('jquery', 'client');
+	api.use('underscore', 'client');
 	if(api.export)
 		api.export(['FormModel', 'DatabaseForm']);
 	api.add_files([
