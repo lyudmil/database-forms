@@ -4,6 +4,8 @@ Package.describe({
 
 Package.on_use(function(api) {
 	api.use('jquery', 'client');
+	if(api.export)
+		api.export(['FormModel', 'DatabaseForm']);
 	api.add_files([
 		'lib/jsonform/jsv.js',
 		'lib/jsonform/jsonform.js',
